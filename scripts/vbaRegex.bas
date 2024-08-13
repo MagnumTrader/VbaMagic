@@ -1,7 +1,7 @@
 Attribute VB_Name = "vbaRegex"
 ' Instructions:
 ' First you need to enable Regular expressions in Excel to be able to use the functions in this module.
-' Go to Tools -> References, find "Microsoft VBScript Regular Expressions 5.5" and enable it.
+' In the Visual Basic window go to Tools -> References, find "Microsoft VBScript Regular Expressions 5.5" and enable it.
 
 ' Will return the *first* match, matching the pattern "strPattern" in the string "myRange" and returns the match.
 ' usage: =regexMatch("string to be matched against"; [a-z]+), will return "string"
